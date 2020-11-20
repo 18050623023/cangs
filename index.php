@@ -189,16 +189,17 @@ mysqli_query($koneksi, "update transaksi set status='Selesai' where ((tgl_main <
               <option value="jember">Jember</option>
             </select>
             <select class="w3-select" name="jenis">
-              <option value="" selected>Jenis Lapangan</option>
+              <option value="" selected>Jenis Tempat</option>
               <option value="angkringan">Angkringan</option>
               <option value="cafe">Cafe</option>
               <option value="warkop">Warkop</option>
             </select>
              <br>
-            <div style="padding-top:10px;">
+            <div style="padding-top:10px; margin-right: 10px; float: left;">
             <button type="submit" name="filter" class="w3-btn w3-theme-d1 w3-margin-bottom"><i class="fa fa-search"></i>Cari</button>
             </div>
             </form>
+            <a style="padding-top:10px; float: right; " href="index.php"><button class="w3-btn w3-theme-d1 "> Reset</button></a>
             </div>
           </div>
           <br>

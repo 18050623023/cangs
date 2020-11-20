@@ -79,10 +79,11 @@
               <option value="sintetis">sintetis</option>
               <option value="Beton/Semen">Beton/Semen</option>
             </select>
-            <div style="padding-top:10px;">
+            <div style="padding-top:10px;float: left;">
             <button type="submit" name="filter" class="w3-btn w3-theme-d1 w3-margin-bottom"><i class="fa fa-search"></i>Cari</button>
          	</div>
-            </form>
+            </form>            
+            <a style="padding-top:10px; float: right; " href="index.php"><button class="w3-btn w3-theme-d1 "> Reset</button></a>
             </div>
             
           </div>
